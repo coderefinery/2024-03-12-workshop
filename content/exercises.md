@@ -8,6 +8,14 @@ We provide this list below to make it easier for team leaders to prepare and nav
 lesson material.  We often change the material before each workshop and in this
 page we list also any ongoing or planned changes to avoid surprises.
 
+<div class="uk-alert-danger" uk-alert>
+  <a class="uk-alert-close" uk-close></a>
+  <p>
+    The list below will change. We are adjusting the workshop to feedback and suggestions
+    that we collected over the last months.
+  </p>
+</div>
+
 
 ### Day 1 (Introduction to version control with Git)
 
