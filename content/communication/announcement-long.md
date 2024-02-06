@@ -8,8 +8,8 @@ Are you writing code and managing data for your research? Do you feel like
 wasting too much time on manual work? Do you struggle to understand and reuse older code?
 
 Join
-the CodeRefinery workshop
-**ADAPT DATES**,
+the CodeRefinery workshop,
+March 12-14 and 19-21, 2024,
 for free and online.
 
 The workshop covers good coding practices, reproducible research principles,
@@ -19,4 +19,4 @@ But you can also follow on your own if you prefer.
 In-person exercise sessions are available in some locations.
 
 Register and find more information at
-**LINK TO WORKSHOP PAGE**.
+<https://coderefinery.github.io/2024-03-12-workshop/>.
