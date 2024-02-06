@@ -28,12 +28,13 @@ We collect here the exercise groups that we know:
 
 ## Instructors
 
-- ...
+- Radovan Bast
+- TBA
 
 
 ## Workshop organizers
 
-- ...
+- Radovan Bast
 
 
 ## On-boarding
