@@ -4,7 +4,8 @@ title = "Prerequisites and software requirements"
 
 ## Prerequisites
 
-- You should be able to navigate the file tree in a terminal session and edit
+- If you choose to participate using the command line, then you should be able
+  to navigate the file tree in a terminal session and edit
   text files in the terminal.
   [This Linux shell crash course](https://scicomp.aalto.fi/scicomp/shell/)
   ([video](https://youtu.be/56p6xX0aToI))
@@ -21,6 +22,15 @@ title = "Prerequisites and software requirements"
 
 
 ## Preparation (software installation)
+
+<div class="uk-alert-danger" uk-alert>
+  <a class="uk-alert-close" uk-close></a>
+  <p>
+    We are updating and simplifying the install instructions.
+    We recommend to only go through them in the week before the workshop starts,
+    but not earlier.
+  </p>
+</div>
 
 It takes a bit of time to install and configure the required software but with
 500 or more participants it is not doable to debug these during the workshop
