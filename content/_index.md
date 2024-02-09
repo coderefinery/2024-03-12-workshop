@@ -28,8 +28,9 @@ We collect here the exercise groups that we know:
 
 ## Instructors
 
+- Enrico Glerean
 - Radovan Bast
-- TBA
+- Samantha Wittke
 
 
 ## Workshop organizers

@@ -84,7 +84,7 @@ schedule:
         title: Reproducible research
         subtitle: Preparing code to be usable by you and others in the future
         url: https://coderefinery.github.io/reproducible-research/
-        presenters: TBA
+        presenters: Samantha and Enrico
       - starts: 11:00
         ends: 12:30
         title: Social coding and open software
