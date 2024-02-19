@@ -113,7 +113,7 @@ schedule:
         title: Automated testing
         subtitle: Preventing yourself and others from breaking your functioning code
         url: https://coderefinery.github.io/testing/
-        presenters: Rcihard and TBA
+        presenters: Richard and TBA
       - starts: 11:00
         ends: 12:30
         title: Modular code development
