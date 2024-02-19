@@ -31,6 +31,9 @@ We collect here the exercise groups that we know:
 - Enrico Glerean
 - Radovan Bast
 - Samantha Wittke
+- Dhanya Pushpadas
+- Richard Darst
+- Matias Jääskeläinen 
 
 
 ## Workshop organizers
@@ -40,12 +43,13 @@ We collect here the exercise groups that we know:
 
 ## On-boarding
 
-- ...
+- Samantha Wittke
+- Radovan Bast
 
 
 ## Recording and broadcasting
 
-- ...
+- Richard Darst
 
 
 ## Outreach
