@@ -64,4 +64,4 @@ We collect here the exercise groups that we know:
 
 ## Collaborative notes editors
 
-- ...
+- Johan Hellsvik (week 1)
