@@ -70,12 +70,12 @@ schedule:
         ends: 10:00
         title: Collaborative distributed version control - part 1/2
         url: https://coderefinery.github.io/git-collaborative/
-        presenters: Dhanya and Radovan
+        presenters: Radovan and TBA
       - starts: 11:00
         ends: 12:30
         title: Collaborative distributed version control - part 2/2
         url: https://coderefinery.github.io/git-collaborative/
-        presenters: Dhanya and Radovan
+        presenters: Radovan and TBA
   - title: "Day 4"
     date: "2024-03-19"
     sessions:
