@@ -31,7 +31,7 @@ We collect here the exercise groups that we know:
 - Enrico Glerean
 - Radovan Bast
 - Samantha Wittke
-- Dhanya Pushpadas
+- Gregor Decristoforo
 - Richard Darst
 - Matias Jääskeläinen 
 
