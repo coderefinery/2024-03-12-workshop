@@ -35,6 +35,7 @@ We collect here the exercise groups that we know:
 - Richard Darst
 - Matias Jääskeläinen
 - Jarno Rantaharju
+- Thomas Pfau
 
 
 ## Workshop organizers
