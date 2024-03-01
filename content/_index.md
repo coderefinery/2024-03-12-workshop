@@ -33,7 +33,9 @@ We collect here the exercise groups that we know:
 - Samantha Wittke
 - Gregor Decristoforo
 - Richard Darst
-- Matias Jääskeläinen 
+- Matias Jääskeläinen
+- Jarno Rantaharju
+- Thomas Pfau
 
 
 ## Workshop organizers

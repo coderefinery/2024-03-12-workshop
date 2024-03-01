@@ -90,7 +90,7 @@ schedule:
         title: Social coding and open software
         subtitle: What can you do to get credit for your code and to allow reuse
         url: https://coderefinery.github.io/social-coding/
-        presenters: TBA
+        presenters: Jarno and TBA
   - title: "Day 5"
     date: "2024-03-20"
     sessions:
@@ -98,7 +98,7 @@ schedule:
         ends: 10:00
         title: How to document your research software
         url: https://coderefinery.github.io/documentation/
-        presenters: TBA
+        presenters: Jarno and Thomas
       - starts: 11:00
         ends: 12:30
         title: Jupyter notebooks
@@ -113,13 +113,13 @@ schedule:
         title: Automated testing
         subtitle: Preventing yourself and others from breaking your functioning code
         url: https://coderefinery.github.io/testing/
-        presenters: Richard and TBA
+        presenters: Richard and Thomas
       - starts: 11:00
         ends: 12:30
         title: Modular code development
         subtitle: Making reusing parts of your code easier
         url: https://coderefinery.github.io/modular-type-along/
-        presenters: TBA
+        presenters: Jarno and Thomas
       - starts: 12:30
         ends: 13:00
         title: "Concluding remarks, general Q&A, and where to go from here"
