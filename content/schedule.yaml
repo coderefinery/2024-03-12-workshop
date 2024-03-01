@@ -6,30 +6,30 @@ schedule:
     sessions:
       - starts: 9:30
         ends: 10:30
-        title: On-boarding for team leaders leading groups over video
+        title: On-boarding for team leaders (option 1)
         url: https://coderefinery.github.io/manuals/team-leaders/
       - starts: 11:00
         ends: 12:00
-        title: On-boarding for team leaders leading in-person teams
+        title: On-boarding for team leaders (option 2)
         url: https://coderefinery.github.io/manuals/team-leaders/
       - starts: 12:30
         ends: 14:00
-        title: Installation help for everybody
+        title: Installation help for everybody (option 1)
         url: https://coderefinery.github.io/installation/
-  - title: "Installation help and on-boarding (you don't need to attend both days, choose the day that is better for you)"
+  - title: "Installation help and on-boarding (you don't need to attend all sessions, choose the one that is better for you)"
     date: "2024-03-07"
     sessions:
       - starts: 9:30
         ends: 10:30
-        title: On-boarding for team leaders leading groups over video
+        title: On-boarding for team leaders (option 3)
         url: https://coderefinery.github.io/manuals/team-leaders/
       - starts: 11:00
         ends: 12:00
-        title: On-boarding for team leaders leading in-person teams
+        title: On-boarding for team leaders (option 4)
         url: https://coderefinery.github.io/manuals/team-leaders/
       - starts: 12:30
         ends: 14:00
-        title: Installation help for everybody
+        title: Installation help for everybody (option 2)
         url: https://coderefinery.github.io/installation/
   - title: "Day 1"
     date: "2024-03-12"
