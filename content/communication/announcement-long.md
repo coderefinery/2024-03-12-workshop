@@ -1,7 +1,7 @@
 +++
 title = "Workshop announcement example (longer version)"
 [extra]
-subject = "CodeRefinery Workshop announcement"
+subject = "CodeRefinery workshop announcement"
 +++
 
 Are you writing code and managing data for your research? Do you feel like

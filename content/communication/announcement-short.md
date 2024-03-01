@@ -1,7 +1,7 @@
 +++
 title = "Workshop announcement example (shorter version)"
 [extra]
-subject = "CodeRefinery Workshop announcement"
+subject = "CodeRefinery workshop announcement"
 +++
 
 CodeRefinery invites everyone interested in improving their software practice
