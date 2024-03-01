@@ -57,12 +57,12 @@ schedule:
         ends: 10:00
         title: Introduction to version control with Git - part 3/4
         url: https://coderefinery.github.io/git-intro/
-        presenters: Radovan and TBA
+        presenters: Radovan and Bjørn
       - starts: 11:00
         ends: 12:30
         title: Introduction to version control with Git - part 4/4
         url: https://coderefinery.github.io/git-intro/
-        presenters: Radovan and TBA
+        presenters: Radovan and Bjørn
   - title: "Day 3"
     date: "2024-03-14"
     sessions:
