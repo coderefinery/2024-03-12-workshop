@@ -36,6 +36,7 @@ We collect here the exercise groups that we know:
 - Matias Jääskeläinen
 - Jarno Rantaharju
 - Thomas Pfau
+- Bjørn Lindi
 
 
 ## Workshop organizers
