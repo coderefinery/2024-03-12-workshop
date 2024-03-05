@@ -3,6 +3,7 @@
 
 ### Summary of important links
 
+- Install instructions: <https://coderefinery.github.io/installation/>
 - Watch the stream at [https://twitch.tv/coderefinery](https://twitch.tv/coderefinery) (shareable)
 - Lesson material is linked in the schedule below (shareable)
 - Collaborative document for questions and notes (please register to receive it)
