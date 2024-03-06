@@ -38,7 +38,7 @@ schedule:
         ends: 8:20
         title: Welcome and introduction
         url: https://github.com/coderefinery/workshop-intro/blob/master/livestream.md
-        presenters: TBA
+        presenters: Samantha
       - starts: 8:20
         ends: 10:00
         title: Introduction to version control with Git - part 1/4
@@ -124,7 +124,7 @@ schedule:
         ends: 13:00
         title: "Concluding remarks, general Q&A, and where to go from here"
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
-        presenters: TBA
+        presenters: Samantha
   - title: "Optional: Bring your own code session"
     date: "2024-03-26"
     sessions:

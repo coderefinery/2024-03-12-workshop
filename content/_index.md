@@ -55,16 +55,6 @@ We collect here the exercise groups that we know:
 - Richard Darst
 
 
-## Outreach
-
-- ...
-
-
-## Expert helpers
-
-- ...
-
-
 ## Collaborative notes editors
 
 - Johan Hellsvik (week 1)
