@@ -50,6 +50,12 @@ We collect here the exercise groups that we know:
 - Radovan Bast
 
 
+## Outreach
+
+- Samantha Wittke
+- Dhanya Pushpadas
+
+
 ## Recording and broadcasting
 
 - Richard Darst
