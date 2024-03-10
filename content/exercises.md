@@ -6,9 +6,18 @@ title = "List of exercises"
 
 ### Week 1
 
-Week 1 will be a mix of discussions and exercises (on your own or in teams).
+Day 1:
+- [Copy and browse an existing project](https://coderefinery.github.io/git-intro/browsing/#exercise)
+- [Committing changes](https://coderefinery.github.io/git-intro/commits/#exercise)
+- [Merging changes and contributing to the project](https://coderefinery.github.io/git-intro/merging/#exercise)
 
-We are updating exercises and will post here a new list as soon as we are done.
+Day 2:
+- [Cloning a Git repository and working locally](https://coderefinery.github.io/git-intro/local-workflow/#exercise)
+- [Inspecting history](https://coderefinery.github.io/git-intro/archaeology/#exercise)
+- [How to turn your project to a Git repo and share it](https://coderefinery.github.io/git-intro/sharing/#exercise)
+
+Day 3:
+- We are still fine-tuning the exercises.
 
 
 ### Week 2
