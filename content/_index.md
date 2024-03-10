@@ -24,6 +24,8 @@ We collect here the exercise groups that we know:
 - [**Aalto University**](https://scicomp.aalto.fi/):
   - Local in-person exercise session and local support.
   - Possibility of [credit points](@/certificates.md) to those in Finland.
+- Materials Physics Center (CFM), Donostia - San Sebastian, Spain
+- TU Delft, Netherlands
 
 
 ## Instructors
