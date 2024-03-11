@@ -11,4 +11,4 @@
 - [Archive of past communication to participants](@/communication/_index.md) (shareable)
 - Videos [on Twitch](https://www.twitch.tv/coderefinery/videos) for 7 days
   and [on
-  YouTube]https://www.youtube.com/playlist?list=PLpLblYHCzJADIsbUhXSrC0qW5wDsH-F9U) later
+  YouTube](https://www.youtube.com/playlist?list=PLpLblYHCzJADIsbUhXSrC0qW5wDsH-F9U) later
