@@ -66,4 +66,5 @@ We collect here the exercise groups that we know:
 ## Collaborative notes editors
 
 - Johan Hellsvik (week 1)
-- Stephan Smuts (Day 1, Day 3, Day 4, Day 6)
+- Stephan Smuts (day 1, day 3, day 4, day 6)
+- Aurélie Vancraeyenest (except day 4)
