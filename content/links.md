@@ -10,4 +10,5 @@
 - Q&A of each day is archived on [this page](@/questions/_index.md) (shareable)
 - [Archive of past communication to participants](@/communication/_index.md) (shareable)
 - Videos [on Twitch](https://www.twitch.tv/coderefinery/videos) for 7 days
-  and [on YouTube](https://www.youtube.com/playlist?list=PLpLblYHCzJADyLxv8GRyxFiRJBhQ-G0NQ) later
+  and [on
+  YouTube]https://www.youtube.com/playlist?list=PLpLblYHCzJADIsbUhXSrC0qW5wDsH-F9U) later
