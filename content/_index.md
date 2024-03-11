@@ -63,6 +63,12 @@ We collect here the exercise groups that we know:
 - Richard Darst
 
 
+## Local organizers
+
+- Teemu Ruokolainen
+- Enrico Glerean
+
+
 ## Collaborative notes editors
 
 - Johan Hellsvik (week 1)
