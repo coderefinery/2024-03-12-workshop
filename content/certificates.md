@@ -21,7 +21,7 @@ provide us with the following **three text documents sent from your university e
 1. A document that shows that you did the exercises during the course:
    - Write one or more paragraphs about [Day 1 - Exercise 2](https://coderefinery.github.io/git-intro/commits/#exercise): provide the link to the forked repository on your GitHub account and show that you did new committs. If you did not use GitHub and if you used the command line, then provide the output of the command `git log --all` for the forked repository. Explain what you did.
    - Write one or more paragraphs about [Day 2 - Exercise 3](https://coderefinery.github.io/git-intro/sharing/#exercise): provide the link to the new repository you have created on your GitHub account. If you did not use GitHub and if you used the command line, then provide the output of the command `git log --all` for the newly created repository. Explain what you did.
-   - Write one or more paragraphs about [Day 3 - XXX] *EG still working on this*
+   - Write one or more paragraphs about [Day 3 - Exercise 1](https://coderefinery.github.io/git-collaborative/same-repository/#exercise): provide the link to the pull request. Explain what you did.
 2. Written answers to the following four questions submitted as a document (pdf
    or word or txt). Evaluation criteria: we expect critical answers related to
    the content of first 3 days with both pros and cons (when relevant):
