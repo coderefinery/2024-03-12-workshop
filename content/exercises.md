@@ -17,7 +17,9 @@ Day 2:
 - [How to turn your project to a Git repo and share it](https://coderefinery.github.io/git-intro/sharing/#exercise)
 
 Day 3:
-- We are still fine-tuning the exercises.
+- [Collaborating within the same repository](https://coderefinery.github.io/git-collaborative/same-repository/#exercise)
+- [How to contribute changes to repositories that belong to others](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise)
+- [Practicing code review](https://coderefinery.github.io/git-collaborative/code-review/#exercise)
 
 
 ### Week 2
