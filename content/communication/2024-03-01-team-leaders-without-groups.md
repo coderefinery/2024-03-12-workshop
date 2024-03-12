@@ -1,5 +1,5 @@
 +++
-title = "2024-03-01 - Practical info for team leaders without own groups"
+title = "2024-03-01 Practical info for team leaders without own groups"
 [extra]
 subject = "CodeRefinery workshop: practical info for team leaders"
 +++

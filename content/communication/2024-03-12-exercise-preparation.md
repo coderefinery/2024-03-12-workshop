@@ -1,5 +1,5 @@
 +++
-title = "2024-03-12 - Exercise preparation for learners without own group"
+title = "2024-03-12 Exercise preparation for learners without own group"
 [extra]
 subject = "[CodeRefinery workshop] preparation for Thursday for leaners without own group"
 +++
