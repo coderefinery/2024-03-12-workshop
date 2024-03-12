@@ -16,12 +16,12 @@ criteria for workshop certificates and credits.
 
 To obtain a certificate, you must be affiliated with a university, or similar
 research organisation. We expect you to **follow the 6 days** of the course and
-provide us with the following **three documents sent from your university email**:
+provide us with the following **three text documents sent from your university email**:
 
-1. The output of `git log --all` from the repositories that you have used
-   during the course as a text file. Evaluation criteria: we expect to see the
-   results from most of the git commands that are run in the first 3 days of
-   the workshop.
+1. A document that shows that you did the exercises during the course:
+   - Write one or more paragraphs about [Day 1 - Exercise 2](https://coderefinery.github.io/git-intro/commits/#exercise): provide the link to the forked repository on your GitHub account and show that you did new committs. If you did not use GitHub and if you used the command line, then provide the output of the command `git log --all` for the forked repository. Explain what you did.
+   - Write one or more paragraphs about [Day 2 - Exercise 3](https://coderefinery.github.io/git-intro/sharing/#exercise): provide the link to the new repository you have created on your GitHub account. If you did not use GitHub and if you used the command line, then provide the output of the command `git log --all` for the newly created repository. Explain what you did.
+   - Write one or more paragraphs about [Day 3 - XXX] *EG still working on this*
 2. Written answers to the following four questions submitted as a document (pdf
    or word or txt). Evaluation criteria: we expect critical answers related to
    the content of first 3 days with both pros and cons (when relevant):
