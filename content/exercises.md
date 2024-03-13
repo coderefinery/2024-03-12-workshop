@@ -18,8 +18,8 @@ Day 2:
 
 Day 3:
 - [Collaborating within the same repository](https://coderefinery.github.io/git-collaborative/same-repository/#exercise)
-- [How to contribute changes to repositories that belong to others](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise)
 - [Practicing code review](https://coderefinery.github.io/git-collaborative/code-review/#exercise)
+- [How to contribute changes to repositories that belong to others](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise)
 
 
 ### Week 2
