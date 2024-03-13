@@ -59,7 +59,7 @@ schedule:
         title: Introduction to version control with Git - part 3/4
         url: https://coderefinery.github.io/git-intro/
         presenters: Radovan and Bjørn
-        subtitle: "[Local work](https://coderefinery.github.io/git-intro/local-workflow/), [Inspecting history](https://coderefinery.github.io/git-intro/archaeology/)"
+        subtitle: "[Day 2 intro](https://github.com/coderefinery/workshop-intro/blob/master/daily_intro.md), [Local work](https://coderefinery.github.io/git-intro/local-workflow/), [Inspecting history](https://coderefinery.github.io/git-intro/archaeology/)"
       - starts: 11:00
         ends: 12:30
         title: Introduction to version control with Git - part 4/4
