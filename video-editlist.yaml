@@ -185,84 +185,71 @@
     - stop: 04:50:32
 
 
-#- output: out/day2-bisect.mkv
-#  title: 2.3 Bisection exercise
-#  description: >
-#    Demonstration of git-bisect from the "Inspecting history"
-#    exercise.  Discussion + demo of the exercise.  We didn't do this
-#    in the main exercise.
-#
-#    https://coderefinery.github.io/git-intro/archaeology/#finding-out-when-something-broke-changed-with-git-bisect
-#
-#  time:
-#    - input: day2-obs.mkv
-#    - start: 04:56:13
-#    - -: What is git bisect?
-#    - 04:57:30: CATS
-#    - 05:00:26: § Starting the exercise
-#    - 05:02:03: § Bisecting manually
-#    - 05:08:59: Finding the bad commit, discussion
-#    - 05:11:32: § Bisecting with a script, figuring out how to test automatically
-#    - 05:15:45: Making the script
-#    - 05:16:32: Running the script
-#    - 05:18:13: § Final discussion
-#    - stop: 05:19:41
-#
-#
-#
-### Day 3
-#- input: day3-obs.mkv
-#
-#- output: out/day3-icebreaker.mkv
-#  title: 3.1 Day 3 icebreaker
-#  description: >
-#    The icebreaker of day 3.  We have a guest who prepares for us by
-#    discussing about their experience with the MNE project and how has
-#    collaboration with many people using the things we will learn
-#    about today.
-#  time:
-#    - start: 00:16:55
-#    - stop: 00:21:50
-#
-#
-#
-#- output: out/day3-git-collab.mkv
-#  title: 3.2 Git collaborative
-#  description: >
-#      Today, we expand from using git by yourself to using it in a
-#      team.  We use Github, centralized workflows, forking on Github,
-#      pull requests, code review, commenting on pull requests,
-#      practical advice on using Git and version control in real projects,
-#      contributing to other projects, and more.
-#
-#      https://coderefinery.org/git-collaborative/
-#  time:
-#    - start: 00:21:55
-#    - -: Some initial discussion
-#    - 00:30:14: Starting off, basic prerequisites
-#    - 00:39:28: § Concepts around collaboration
-#    - 00:58:01: § Centralized workflow
-#    - 01:05:54: stop   # ERROR: wrong syntax
-#    - 01:16:11: start
-#    - 01:16:11: "Exercise Centralized-1"
-#    - stop: 01:24:58
-#    - start: 01:54:37
-#    - -: "Exercise Centralized-2: reviewing and merging the pull request"
-#    - cover: {begin: 02:13:15, end: 02:13:24}  # some window on screen
-#    - stop: 02:22:07
-#    - start: 03:19:43
-#    - -: § Distributed version control and forking workflow
-#    - 03:28:47: Preparation for "Exercise Distributed-1"
-#    - stop: 03:37:02
-#    - start: 04:16:59
-#    - -: Merging, going over the exercise
-#    - 04:39:10: § How to contribute changes to someone else's project
-#    - 04:49:53: "More general Q&A"
-#    - 04:57:33: Final words
-#    - 04:58:11: Preparation for week 2
-#    - stop: 05:00:28
-#
-#
+
+## Day 3
+- input: raw/day3-obs.mkv
+
+- output: out/day3-icebreaker.mkv
+  title: 3.1 Day 3 icebreaker
+  description: >
+    The icebreaker of day 3.  We have a guest who prepares for us by
+    discussing about their experience with the MNE project and how has
+    collaboration with many people using the things we will learn
+    about today.
+  time:
+    - start: 00:14:15
+    - stop: 00:21:56
+
+- output: out/day3-intro.mkv
+  title: 3.2 Day 3 intro
+  description: >
+    The intro of day 1, where we position the day in the bigger
+    picture of the course and re-introduce things for any new people.
+  time:
+    - start: 00:21:56
+    - stop: 00:27:53
+
+
+
+
+- output: out/day3-git-collab.mkv
+  title: 3.3 Git collaborative
+  description: >
+      Today, we expand from using git by yourself to using it in a
+      team.  We use Github, centralized workflows, forking on Github,
+      pull requests, code review, commenting on pull requests,
+      practical advice on using Git and version control in real projects,
+      contributing to other projects, and more.  This really puts the
+      previous two days together and lets you know how things work in
+      bigger projects.
+
+      https://coderefinery.org/git-collaborative/
+  time:
+    - start: 00:27:53
+    - -: Some initial discussion
+    - 00:29:36: Collaborative distributed version control
+    - 00:33:26: "§ Concepts around collaboration"
+    - 00:42:21: "§ Collaborating within the same repository"
+    - 00:42:50: Exercise preparation
+    - 00:45:18: Exercise overview (same repository)
+    - stop: 00:51:23
+    - start: 01:31:45
+    - -: Exercise demo Q&A (same repository)
+    - 01:49:39: '§ Practicing code review (straight to exercise)'
+    - stop: 01:57:45
+    - start: 03:21:42
+    - -: "§ Contributing changes to others' repositories"
+    - 03:26:11: Demo of main exercise steps
+    - 03:43:19: Starting the exercise (code review
+    - stop: 03:44:59
+    - start: 04:16:41
+    - -: After exercise commentary
+    - stop: 04:17:47
+    - start: 04:26:48
+    - -: "More general Q&A and recommendations (bottom of 'contributing changes')"
+    - 04:51:20: Final words and preparation for day 3
+    - stop: 04:55:52
+
 ### Day 4
 #- input: day4-obs.mkv
 #
