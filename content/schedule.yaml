@@ -74,11 +74,22 @@ schedule:
         title: Collaborative distributed version control - part 1/2
         url: https://coderefinery.github.io/git-collaborative/
         presenters: Radovan and Gregor
+        subtitle: >-
+          [Day 3
+          intro](https://github.com/coderefinery/workshop-intro/blob/master/daily_intro.md#welcome-to-day-3-of-the-coderefinery-workshop),
+          [Concepts](https://coderefinery.github.io/git-collaborative/concepts/),
+          [Same
+          repository](https://coderefinery.github.io/git-collaborative/same-repository/),
+          [Code
+          Review](https://coderefinery.github.io/git-collaborative/code-review/)
       - starts: 11:00
         ends: 12:30
         title: Collaborative distributed version control - part 2/2
         url: https://coderefinery.github.io/git-collaborative/
         presenters: Radovan and Gregor
+        subtitle: >-
+          [Contributing to others](https://coderefinery.github.io/git-collaborative/forking-workflow/)
+
   - title: "Day 4"
     date: "2024-03-19"
     sessions:
