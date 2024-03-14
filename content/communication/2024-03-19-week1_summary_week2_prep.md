@@ -1,4 +1,11 @@
-Dear <name>,
++++
+title = "2024-03-19-week1_summary_week2_prep"
+[extra]
+subject = "CodeRefinery workshop: welcome to week 2!"
++++
+
+
+Dear [name],
 
 Thank you for joining the workshop this week, and for all the wonderful questions we got from you and hopefully could answer sufficiently in our collaborative document.
 
