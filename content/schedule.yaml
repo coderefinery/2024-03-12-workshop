@@ -127,13 +127,13 @@ schedule:
         title: Automated testing
         subtitle: Preventing yourself and others from breaking your functioning code
         url: https://coderefinery.github.io/testing/
-        presenters: Richard and Thomas
+        presenters: Richard and Jarno
       - starts: 11:00
         ends: 12:30
         title: Modular code development
         subtitle: Making reusing parts of your code easier
         url: https://coderefinery.github.io/modular-type-along/
-        presenters: Jarno and Thomas
+        presenters: Jarno and Richard
       - starts: 12:30
         ends: 13:00
         title: "Concluding remarks, general Q&A, and where to go from here"
