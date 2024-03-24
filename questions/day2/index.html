@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Questions and notes from workshop day 2 - CodeRefinery workshop March 12-14 and 19-21, 2024</title>
+    <link rel="shortcut icon" href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.1/dist/js/uikit-icons.min.js"></script>
+
+    <!-- time zone localization -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/utc.js" integrity="sha256-qDfIIxqpRhYWa543p6AHZ323xT3B8O6iLZFUAWtEQJw=" crossorigin="anonymous"></script>
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.github.io/2024-03-12-workshop/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Questions and notes from workshop day 2</title>
+      <meta name="twitter:title" content="Questions and notes from workshop day 2" />
+      <meta property="og:title" content="Questions and notes from workshop day 2" />
+      <meta property="og:site_name" content="CodeRefinery workshop March 12-14 and 19-21, 2024" />
+    
+
+    
+      <meta name="description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+      <meta name="twitter:description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+      <meta property="og:description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png" />
+      <meta property="og:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png" />
+    
+
+
+    
+
+    <link href="https://coderefinery.github.io/2024-03-12-workshop/style.css" rel="stylesheet">
+
+    
+    <script defer data-domain="coderefinery.github.io" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-visible@s">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;exercises">
+      List of exercises
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;audience">
+      Audience
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;certificates">
+      Certificates
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;join">
+      How to join
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;requirements">
+      Requirements
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;questions">
+      Q&amp;A
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;code-of-conduct">
+      Code of conduct
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;communication">
+      Communication
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+  </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;exercises">
+      List of exercises
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;audience">
+      Audience
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;certificates">
+      Certificates
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;join">
+      How to join
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;requirements">
+      Requirements
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;questions">
+      Q&amp;A
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;code-of-conduct">
+      Code of conduct
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;communication">
+      Communication
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+      <div class="markdown">
+        
+  <h1>Questions and notes from workshop day 2</h1>
+
+  <ul>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#icebreaker-questions">Icebreaker questions</a>
+      
+        <ul>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#what-is-your-spirit-animal">What is your spirit animal?</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#which-types-of-projects-can-you-use-git-etc-which-will-you-use-it-for-add-an-o-to-what-you-agree-with">Which types of projects can you use Git, etc? Which will you use it for? (add an o to what you agree with)</a>
+              
+            </li>
+          
+        </ul>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#introduction-to-version-control-with-git">Introduction to version control with Git</a>
+      
+        <ul>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#cloning-a-git-repository-and-working-locally">Cloning a Git repository and working locally</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#exercise-cloning-a-git-repository-and-working-locally">Exercise: Cloning a Git repository and working locally</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#inspecting-history">Inspecting history</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#exercise-explore-basic-archaeology-commands">Exercise: Explore basic archaeology commands</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#how-to-turn-your-project-to-a-git-repo-and-share-it">How to turn your project to a Git repo and share it</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#exercise-turn-your-project-to-a-git-repo-and-share-it">Exercise: Turn your project to a Git repo and share it</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#practical-advice-how-much-git-is-necessary">Practical advice: how much Git is necessary?</a>
+              
+            </li>
+          
+        </ul>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2024-03-12-workshop/questions/day2/#feedback">Feedback</a>
+      
+    </li>
+  
+</ul>
+
+
+  
+  
+    <h2 id="icebreaker-questions">Icebreaker questions</h2>
+<h3 id="what-is-your-spirit-animal">What is your spirit animal?</h3>
+<ul>
+<li>Dolphin</li>
+<li>Honeybadger</li>
+<li>Unicorn</li>
+<li>Cow</li>
+<li>Slimy hagfish</li>
+<li>Simurgh</li>
+<li>Seagull?</li>
+<li>Rabbit</li>
+<li>Beagles</li>
+<li>Hedgehog</li>
+<li>Mountain hare</li>
+<li>Cat +3</li>
+<li>Blackbird</li>
+<li>Snow leopard</li>
+<li>Penguin</li>
+<li>Squirrel</li>
+<li>Reindeer (with a red nose)</li>
+<li>Remy from Ratatouille</li>
+<li>Panda</li>
+<li>Dung beetle</li>
+</ul>
+<h3 id="which-types-of-projects-can-you-use-git-etc-which-will-you-use-it-for-add-an-o-to-what-you-agree-with">Which types of projects can you use Git, etc? Which will you use it for? (add an o to what you agree with)</h3>
+<ul>
+<li>I used it for making backend for my project, currently just to keep my code organised</li>
+<li>Plan to use it for organising code for research papers: oooooo</li>
+<li>Worked as a fullstack software engineer in webdev, now I am doing a Ph.D. in physics where I code a lot so I use Git to organize this code.</li>
+<li>To put the article manuscripts in a BitBucket repository for my supervisor to revise :)
+<ul>
+<li>Your supervisor uses Git? Nice!</li>
+<li>Yes.</li>
+</ul>
+</li>
+<li>Websites</li>
+<li>Writing a book</li>
+<li>We do our blog with Git + static site generators</li>
+<li>Bioinformatics projects</li>
+<li>Bash and Python scripts oo</li>
+<li>All CodeRefinery materials o</li>
+<li>Hobby programming projects + work related projects oo</li>
+<li>Research on image processing / machine vision. Mostly work alone in development of approaches. When version is ready colleagues do testing, GUI, work on other modules for same software. o</li>
+<li>Android app</li>
+<li>Chemometrics projects</li>
+</ul>
+<h2 id="introduction-to-version-control-with-git">Introduction to version control with Git</h2>
+<p>Materials: Continuing with <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/">Git intro</a></p>
+<ul>
+<li>
+<p>What do we need to follow this lesson?</p>
+<ul>
+<li>Minimum: GitHub account, optional Git installed for terminal, Visual Studio Code (VS Code)</li>
+<li>More info: https://coderefinery.github.io/installation/</li>
+</ul>
+</li>
+<li>
+<p>Does the stream on Twitch work for anyone?</p>
+<ul>
+<li>Works here, try reload the page?</li>
+<li>Works now, thanks!</li>
+</ul>
+</li>
+<li>
+<p>where i can see this document which shown now on twitch</p>
+<ul>
+<li>It's this one :smile: You can see the formatted version by clicking the eye symbol on the top bar or side bar</li>
+<li>I want one with agenda for today
+<ul>
+<li>Workshop page with agenda: https://coderefinery.github.io/2024-03-12-workshop/</li>
+<li>Day 2 intro: https://github.com/coderefinery/workshop-intro/blob/master/daily_intro.md (webpage will be updated)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Do we learn staging in the coming days? I still do not figure out exactly when it is best used. Is it better than many small commits?</p>
+<ul>
+<li>We have an optional episode about staging: https://coderefinery.github.io/git-intro/staging-area/</li>
+</ul>
+</li>
+<li>
+<p>It is really helpful to go through the notes after the sessions, will these notes be available indefinitely?</p>
+<ul>
+<li>Not here, but they will be curated and then all be available from the workshop page: https://coderefinery.github.io/2024-03-12-workshop/questions/</li>
+</ul>
+</li>
+<li>
+<p>In the workflow I have with my colleagues I develop code in MATLAB that is then automatically translated to CPP code using MATLAB coder and tested. The code needs some manual changes before it can go through MATLAB Coder. Usually my colleagues create two copies of the files in the repository with and without these changes. The rational for using copies (rather than branches) is that they need to test that behaviour is still same, which is easier having copies of files than branches. Usually to continue working on further developments I should take the changed files. It fells somewhat wrong to have under source several versions of same file. Could you comment on how we could do this better?!</p>
+<ul>
+<li>Very good question. Sometimes I've had this case of semi-generated or files that need to be accessible at the same time.</li>
+<li>In this case, yes, I'd basically keep them separate in the same branch. There are tools that help to view the diffs easily and keep them in sync - at least sort of try to: diff, patch, meld (and other graphical diff tools).</li>
+</ul>
+</li>
+</ul>
+<h3 id="cloning-a-git-repository-and-working-locally"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/local-workflow/#cloning-a-git-repository-and-working-locally">Cloning a Git repository and working locally</a></h3>
+<ul>
+<li>
+<p>In VS Code, do you have a list of recommended extensions? Any that is a must?</p>
+<ul>
+<li>Good question! I broadcasted the question to our extended network. It would be great to gather together a useful list of extensions.
+<ul>
+<li>Linters (depends on language)</li>
+<li>Jupyter</li>
+<li>Live server (for webdev)</li>
+<li>Git Graph</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Let's say I create a release/tag of a version of my code, and my colleagues take that version to another repository, where they have also other modules. What are the tools for merging the code that is common between the repositories later?</p>
+<ul>
+<li>One solution could be Git submodules: https://git-scm.com/book/en/v2/Git-Tools-Submodules Submodules allow you to keep a Git repository as a subdirectory of another Git repository.</li>
+<li>There should really be two different repositories in my usecase (I believe) due to different institutions and intellectual property rights (IPR).</li>
+<li>Git submodules often break. Better to keep separate repositories.</li>
+</ul>
+</li>
+<li>
+<p>Can I easily have and edit two branches at same time in different folders in my computer?</p>
+<ul>
+<li>Yes
+<ul>
+<li>You can even have them linked to the same actual repository (see Git worktree).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How to add a new release when an existing one is already there, there is no button to create new release!</p>
+<ul>
+<li>For all I know you can't have two tags/releases for one commit id. Thus, if you have a release at a specific commit you won't be able to create another one for this commit.</li>
+</ul>
+</li>
+<li>
+<p>How to add v1.0? The button did not show up in my GitHub?</p>
+<ul>
+<li>Either click on branch button and from there you can navigate to the tag. In my case I went on the right side of my repo website and clicked on &quot;Releases&quot; and from there on &quot;Draft a new release&quot;</li>
+<li>alternatively: your-repo-web-url/releases/new</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Just an observation: Creating a DOI does not guarantee that an asset will &quot;never disappear&quot; - digital archiving is a huge challenge: https://www.nature.com/articles/d41586-024-00616-5
+- Good point. It is not a guarantee but better than having only a repo (which is better than having no repo). But thank you for the clarification.</p>
+</blockquote>
+<ul>
+<li>
+<p>Isn't it difficult to work on e.g. Python scripts on GitHub? Since I have to test them while modifying them. Then GitHub would just be a place to upload my files, right? With more functionalities of course. Is there anything I'm missing? +1</p>
+<ul>
+<li>Yes, we will look into that today: How to work on your code locally before &quot;pushing&quot; it to &quot;the remote&quot; on GitHub.
+<ul>
+<li>Please ask more if this does not become clear after today.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>When creating new branches locally you can either use the Git switch command or the Git checkout command. What is the difference?</p>
+<ul>
+<li>In most situation they are doing the same. Checkout actually can accept commits as well, which would &quot;check out the repository at the given commit&quot; and if the commit is a branch name or tag it will check it out at that commit and switch the branch. <code>git switch</code> is explicitly for branch switching.</li>
+</ul>
+</li>
+<li>
+<p>Should we clone the origin repository or our forked version?</p>
+<ul>
+<li>Forked version if you have it; but both will work.</li>
+</ul>
+</li>
+<li>
+<p>Is there a way to turn on autofill suggestions in Git Bash (Windows)?</p>
+<ul>
+<li>Do you mean like tab completing?
+<ul>
+<li>yes!
+<ul>
+<li>Have a look <a rel="noopener" target="_blank" href="https://stackoverflow.com/questions/33495152/enabling-auto-completion-in-git-bash-on-windows">here</a>, this stackoverflow explains it (and hopefully works, can't test it locally unfortunately since I'm on Linux).</li>
+<li>Thanks, will try this out!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>In source control I see &quot;initialize repository&quot; and &quot;publish on GitHub&quot;. I do not see clone repository.</p>
+<ul>
+<li>You have a project open. Try opening a new window from the file menu.</li>
+<li>In mine, as soon as I do &quot;new window&quot; it presents &quot;Clone Git repository&quot; as a option in the new blank window (tab called &quot;Welcome&quot;). Hm...
+<ul>
+<li>When you have opened a folder and it's not a Git repository, it shows the two options in the question. It often opens the previous folder you had open when you run it.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>what is the difference between HTTPS and SSH?</p>
+<ul>
+<li>SSH is a protocol to connect to a remote system (secure shell). HTTPS is a protocol for (mostly) web-traffic.
+<ul>
+<li>Sorry, missed the point, you were talking about the different addresses for the Git repo. See the answer below for a better explanation.</li>
+</ul>
+</li>
+<li>I didn't understand it well.</li>
+<li>Two ways of linking to GitHub and authenticating to the repos. This page explains options available to you and what we recommend (part of setup instructions): https://coderefinery.github.io/installation/ssh/.</li>
+</ul>
+</li>
+</ul>
+<h3 id="exercise-cloning-a-git-repository-and-working-locally"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/local-workflow/#exercise">Exercise: Cloning a Git repository and working locally</a></h3>
+<p>In team/on your own: until XX:00, then we reconvene briefly on Stream
+Try to do most of this. Follow solution if you need, it's designed to be followed
+I am:</p>
+<ul>
+<li>
+<p>done: ooooooooo</p>
+</li>
+<li>
+<p>not trying: o</p>
+</li>
+<li>
+<p>had problems: oo</p>
+</li>
+<li>
+<p>everything was good: ooo</p>
+</li>
+<li>
+<p>tested RStudio path : o</p>
+</li>
+<li>
+<p>There is only 'Publish Branch' button, when I click Git button on VS Code</p>
+<ul>
+<li>And you wanted to create a branch at this point?
+<ul>
+<li>Aha. I see. After you created it. Yes, I see it too. I expect that &quot;Publish Branch&quot; would make it visible also on GitHub. Not needed for this exercise but you can try it out. Under the hood, it will &quot;git push&quot; it to GitHub.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What is the difference between committing and staging?</p>
+<ul>
+<li>When staging, you prepare and collect your work to be commited later.</li>
+<li>You can imagine it like in the supermarket, you walk through the supermarket collecting items (your edits to the code), then you go to the cashier where you put your items on the belt (staging), at this point you might still change your mind, and put away the chocolate bar you found next to the belt and take the chewing gum instead, once you are done making up your mind about things, the cashier scans your items and you pay for the things you decided to take home (commit)
+<ul>
+<li>Thanks! Great explanation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I do not see the branches in VS Code explorer after cloning, I do not even know the branch I am in at the moment.</p>
+<ul>
+<li>For me they are shown on bottom left. +1</li>
+<li>The bottom left also has a &quot;recycle&quot; symbol, or arrows for pushing and pulling. Do you see anything like that?</li>
+</ul>
+</li>
+<li>
+<p>I created a new branch in VS Code and I am trying to merge it to main but in the version contol view &quot;... -&gt; Branch&quot; there is no option Merge branch available for me. I am within the main branch.</p>
+<ul>
+<li>Anyone has ideas? Could it be different versions? There is always command line from the VS Code terminal.</li>
+<li>When you navigate to &quot;Merge Branch&quot;, then none is listed? Or are there some listed but not the one you were looking for?</li>
+<li>I am only seeing options &quot;Create branch.&quot; and &quot;Create branch from..&quot;. I am using Windows.</li>
+<li>Do you have multiple branches?</li>
+<li>Yes I can see all the branches of &quot;recipe-book&quot; from the menu (bottom bar) and the new branch I created.</li>
+<li>Can you press ctrl+shift+p and type &quot;Git: Merge branch&quot;? Does it find the command? (It seems in an older version of VS Code it might not be there.)</li>
+<li>I cannot find a command by this
+<ul>
+<li>Did it open a command prompt? If so, the command does not exist in your version of VS Code. You can update VS Code or add an extention for merging branches.</li>
+<li>Another workaround is to open a terminal window (top menu with File Edit ..., choose Terminal -&gt; New Terminal). In the terminal run the command Git merge BRANCH_TO_MERGE_FROM.</li>
+<li>I checked my VS Code version and it is 1.87.1. We were able to do the merging correctly in the classroom with VS Code 1.81.1 on another computer, without additional extensions.
+<ul>
+<li>I see the merge also with 1.87, so we are unsure what is the reason.</li>
+</ul>
+</li>
+<li>The terminal command gives an error &quot;fatal: not a Git repository (or any of the parent directories): .git&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>The commit (new file) I created locally in a new branch is also visible when I switch to the main branch. It was not the case while working on GitHub. Where is this difference from?</p>
+<ul>
+<li>I tried this in my VS Code and this didn't happen. This is before the merge, right?
+<ul>
+<li>Yes
+<ul>
+<li>Interesting. This &quot;should not happen&quot; :-) You can try with a new change. Or you can open a terminal inside VS Code and check with:
+<ul>
+<li><code>git log --oneline main</code></li>
+<li><code>git log --oneline THEOTHERBRANCH</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I got the following error (screenshot removed)</p>
+<ul>
+<li>the error means you are trying to run this outside a Git repository. Maybe you cloned and got a new directory but are not yet inside that new directory.</li>
+</ul>
+</li>
+<li>
+<p>How to go inside the repository from Git?</p>
+<ul>
+<li>You are in VS Code or where are you?</li>
+<li>In the Git bash
+<ul>
+<li>In this case, try &quot;ls&quot; (list current directory) or &quot;pwd&quot; (print working directory) and depending where you are, you can navigate to it with &quot;cd&quot;</li>
+<li>Should I navigate to the cloned repository locally?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Is there a reason that I do not see any remote branches when I do <code>git branch --all</code> ? I only see my own remote branches which are:
+remotes/origin/HEAD -&gt; origin/main
+remotes/origin/main
+Should I only see the remote branches of the forked repo, or also the one in the upstream?</p>
+<ul>
+<li>Only of the forked repo (since that's all that Git can know about at the time).</li>
+</ul>
+</li>
+<li>
+<p>I want to try to use VS Code and Git. When I want to commit one of my changes, I get an error message asking me to make sure I configured my set-up. I already configured my Git with Git config user.name &quot;my user name&quot; and Git config user.mail &quot;my email adress&quot;. Besides, I am connected with my GitHub account on VS Code. Do you have any idea what I should do?</p>
+<ul>
+<li>Hm.  Good question.  It can't hurt to do it again, though</li>
+<li>Random idea: could it be you did <code>git config</code> without <code>--global</code> so that it set user.name and user.email only for a certain repo?</li>
+<li>Or could VS Code be using a different Git from what you used before.  (I'm not sure how or why this might be though)
+<ul>
+<li>I double-checked the identification with command lines in VS Code. Everything is ok. But I still get this problem. I also reloaded the window.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>If I am working alone, can my remote repository then be considered a backup? But if we collaborate then it is a must to have a remote, to share, but can also be considered a backup?</p>
+<ul>
+<li>In a way yes, it can also be really helpful to use eg GitHub when working alone but on multiple computers, to keep your own work synced.</li>
+<li>So a backup with extra functionalities</li>
+</ul>
+</li>
+<li>
+<p>DO we use the powershell terminal in VS Code or the Git bash?</p>
+<ul>
+<li>I'm not quite sure... does the propmpt end in <code>$</code>?  If so, likely git-bash.</li>
+</ul>
+</li>
+<li>
+<p>When we created a file Git didnt track the file, and therefore VS Code didnt show anything in the status. It only worked after the file had some content. Why?</p>
+<ul>
+<li>Hm, not sure. Git should be able to track empty files, but maybe VS Code has some filter on what it shows. Or hasn't updated the view yet?
+<ul>
+<li>Git cannot track empty files so it needs to have some content to be trackable. For instance you cannot add empty directories under git. +1</li>
+<li>Empty files are trackable it seems (empty dirs not).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I made suggestion on explanation on a webpage about VS Code part. Otherwise its nicely explained.</p>
+<ul>
+<li>Thank you for the suggestion! We will try to add something about the tabs. +1</li>
+</ul>
+</li>
+<li>
+<p>How do I see the commits history in VS Code? And is there any way to visualise also the network?</p>
+<ul>
+<li>I have an extension for that, Git Graph (same for VS Code)</li>
+<li>After installing the Git graph, how to use it?
+<ul>
+<li>Go to the version control panel. There should be a new graph icon at the top of the panel</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Is the last commit of a branch also called HEAD, or it only applies to main?</p>
+<ul>
+<li>Whatever you currently have checked out is HEAD - whatever branch it may be.</li>
+</ul>
+</li>
+<li>
+<p>As I understand we should not use Git for files that can be regenerated, e.g. plots? Is there a way to setup so that some files/folders are never under Git under a project?</p>
+<ul>
+<li>There is the .gitignore file where you can define which files and folders should be ignored by git: https://coderefinery.github.io/git-intro/basics/#ignoring-files-and-paths-with-gitignore</li>
+<li>When creating a new repository in the GitHub web interface, it provides you the possibility to use a template gitignore file for different programming languages: <img src="https://notes.coderefinery.org/uploads/9a1e4f8c-ccea-4564-ae8d-b66674b42f46.png" alt="" /></li>
+</ul>
+</li>
+<li>
+<p>What is origin/HEAD and origin/main?</p>
+<ul>
+<li>HEAD: the position where you are right now (&quot;position of the recorder head&quot;)</li>
+<li>origin/HEAD is the current position / active branch on the remote</li>
+<li>origin/main is the main branch on the remote</li>
+</ul>
+</li>
+<li>
+<p>We didn't hear the jingle :(</p>
+<ul>
+<li>CATS will have a solo on the next jingle :-)</li>
+<li>the UI has a few quicks still.</li>
+</ul>
+</li>
+<li>
+<p>Doesn't it give a problem in the path when the instructor names his branch username/whatever <em>slash</em>?</p>
+<ul>
+<li>some people prefer &quot;myname-topic&quot; to name their branches. Slash in the branch works for me but maybe it creates problems on some operating systems?
+<ul>
+<li>one problem it can create is confusion since it can be confused with origin/somebranch where origin refers to an address. Confusion for humans, not for Git. for Git these are different things.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="inspecting-history"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/archaeology/#inspecting-history">Inspecting history</a></h3>
+<ul>
+<li>
+<p>How to step outside? How to move up in folder hierarchy? In Git bash</p>
+<ul>
+<li>Git bash: <code>cd ..</code> to move one level up; you can use <code>pwd</code> to check &quot;where you are&quot;</li>
+<li>Great, thanks a lot!</li>
+</ul>
+</li>
+<li>
+<p>I got an error (screenshot removed)</p>
+<ul>
+<li>Are you running the clone from a place you have permissions to make new files? Does a &quot;networkx&quot; directory already exist?</li>
+<li>No I am running the command line on gitbash. What shouldI do in this case?</li>
+<li>What does <code>pwd</code> show in git-bash?  It would show where you currently are (I hope)</li>
+<li>Yes it is <code>/</code>.
+<ul>
+<li>that would indicate the root directory. Most likely your user is not allowed to write in there. Best do this in your home folder</li>
+<li>Okay it works thanks!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What exactly is the fixme?</p>
+<ul>
+<li>&quot;fixme&quot; is a keyword often used to say &quot;I need to come back here and do something&quot;. Using the keyword makes it easy to search for it like we are doing here.</li>
+<li>sometimes I leave a &quot;todo&quot; or &quot;fixme&quot; in the code to fix it later. Of course I will forget to do that... or not have time.</li>
+</ul>
+</li>
+</ul>
+<h3 id="exercise-explore-basic-archaeology-commands"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/archaeology/#exercise">Exercise: Explore basic archaeology commands</a></h3>
+<p>In team/on your own: until XX:50
+Try to do most of this, steps 1-5. Follow solution if you need, it's designed to be followed. Bisect part is optional.
+I am:</p>
+<ul>
+<li>
+<p>done: ooooooo</p>
+</li>
+<li>
+<p>not trying: o</p>
+</li>
+<li>
+<p>had problems: ooooo</p>
+</li>
+<li>
+<p>everything was good: oooo</p>
+</li>
+<li>
+<p>I can't find the string...</p>
+<ul>
+<li>Make sure you are not searching on <code>main</code> but that you first &quot;downgrade&quot; your clone to the particular older version. The text might have disappeared in the past. But maybe you are on GitHub where it might be more difficult to search through a past version?
+<ul>
+<li>Ignore my comment, you should be able to find it also on main.</li>
+<li>But let me try on my side ...
+<ul>
+<li>Yes, I'm on GitHub
+<ul>
+<li>I am now testing on GitHub ...</li>
+<li>Ok I got it! Thank you.
+<ul>
+<li>Good!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Could you make an example how to write command line for this: &quot;Use /sometext <code>&lt;ENTER&gt;</code> to find “sometext” and you can cycle through the results with n (next) and N (last).&quot;</p>
+<ul>
+<li>Good question. We will show this after exercise here on stream on how to search through file.</li>
+</ul>
+</li>
+<li>
+<p>what is the command for these; &quot;Find out when this line was last modified or added. Find the actual commit which modified that line&quot;.</p>
+<ul>
+<li>See solution. But once you know which file it is (which you found out with &quot;git grep&quot;), try &quot;git annotate FILE&quot;.</li>
+</ul>
+</li>
+<li>
+<p>Is it possible to do the exercise merely using the VS Code than command-line?</p>
+<ul>
+<li>I will comment on that. some steps probably need an extension but we did not want to recommend installing extensions to make it more complicated. some steps (like &quot;annotate&quot; might not work without extension). We are collecting a list of extensions that we plan to recommend to learners.</li>
+</ul>
+</li>
+<li>
+<p>Do we need to find the commit that simply modify that line (they just added a space) or the one that created it? I assume the former, but the code hadn't change really</p>
+<ul>
+<li>the former. in this exercise just looking at the last change (which added some spaces). But in real life, sometimes we have to dig deeper and then look from there further into the past. Good observation!</li>
+</ul>
+</li>
+<li>
+<p>My terminal doesn't go to less?</p>
+<ul>
+<li>It works if you pipe into less -&gt; <code>your command | less</code></li>
+<li>What operating system, etc are you using? git-bash?
+<ul>
+<li>It is git-bash in VS Code terminal on windows</li>
+<li>I think it might be this, if you did this configuration: https://coderefinery.github.io/installation/git-in-terminal/#step-4-two-more-settings-for-windows-only</li>
+<li>It helped with some thing else (git in the Conda terminal) but these commands disable <code>less</code></li>
+<li><code>git config --unset core.pager</code> would un-do it.</li>
+</ul>
+</li>
+<li>we will show how to search without less.</li>
+</ul>
+</li>
+<li>
+<p>Could you clarify where the branches are saved (like in which folder) in my local computer when I create branches locally? I cannot find them</p>
+<ul>
+<li>all Git info is saved in a folder called .git that is on the top of your repository. All the branches and metadata is in there (<code>.git/refs/heads/</code> in particular).</li>
+<li>We have an advanced lesson that tells more (but it is advanced and not needed for real work): https://coderefinery.github.io/git-intro/under-the-hood/</li>
+</ul>
+</li>
+<li>
+<p>Still do not find the actual commit that modified the line, with &quot;git annotate networkx/algorithms/threshold.py&quot;.</p>
+<ul>
+<li>Does searching for &quot;/Logic error&quot; work?
+<ul>
+<li>It exits after it prints all the commit so I cannot type /Logic error.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Could you please briefly explain how to do the last question of the exercice on GitHub?</p>
+<ul>
+<li>Hopefully we have time to show, otherwise we will describe here ...
+<ul>
+<li>You can navigate to that point: https://github.com/networkx/networkx/tree/51611a038</li>
+<li>But to create a branch, you would have to fork first.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How am I supposed to create a branch pointing to the past when I have not cloned, according to the instructions in GitHub? I do have it in VS Code however, but not sure how to point to that commit. I think it is a bit confusing when we can use both GitHub, terminal and VS Code.</p>
+<ul>
+<li>Thank you for the feedback. The different tracks are new to us too and were a response to earlier workshops feedback.</li>
+<li>You are using the &quot;GitHub&quot; path?</li>
+<li>Answer to the question: you cannot create a branch directly on their repo. you would have to fork first and then create it. But you can probably browse their project at that commit: https://github.com/networkx/networkx/tree/51611a038</li>
+</ul>
+</li>
+<li>
+<p>Hi! For some reason when i tried to &quot;git switch --create HASH-1&quot;, it returned an error &quot;fatal: invalid reference&quot;. Any ideas as to why?</p>
+<ul>
+<li>I made the same mistake, it is ~ and not -
+<ul>
+<li>AHA. Okay thank you!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>I think this exercise was too fast and not properly explained</p>
+<ul>
+<li>Thank you for the feedback, hopefully the walkthrough now helps you to get back on track.</li>
+<li>But also don't worry if not, you will still be able to join in the afternoon.
+<ul>
+<li>I agree that there wasn't enough time. For me cloning and creating branches took a long time (a lot of files and changes). Also, I feel that there was a lot jumping back and forth on the page that contains the exercise. It would be useful to have the commands demonstrated at the time when they are needed.
+<ul>
+<li>Thank you also for that feedback and the suggestion!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Heard the jingle!</p>
+<ul>
+<li>:)</li>
+</ul>
+</li>
+<li>
+<p>Still do not find the actual commit that modeified the line, with “git annotate networkx/algorithms/threshold.py”</p>
+<ul>
+<li>Does searching for “/Logic error” work?
+<ul>
+<li>It exits after it prints all the commit so I cannot type /Logic error</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>git annotate exits the file after printing its content, so I cannot type the &quot;/Logic error&quot;</p>
+<ul>
+<li>It might be that it is not using the pager &quot;less&quot; (a bash command to view text output and navigate while viewing it). &quot;git annotate filename.py |less&quot; should work (replace filename.py with the path+file you want to git annotate).</li>
+</ul>
+</li>
+<li>
+<p>If I create a local branch from a remote branch, where the new information is saved? Since the branch is not from the local repository</p>
+<ul>
+<li>This creates local copy of the remote branch. The new branch starts from there.</li>
+<li>All branch information is stored in a folder called .git .</li>
+</ul>
+</li>
+<li>
+<p>Does remote branch always start with origin</p>
+<ul>
+<li>When you clone, the place you clone from is automatically called &quot;origin&quot;. The remote branch name starts with the name of the remote repository, which in this case is &quot;origin&quot;. Usually you only have one remote, called &quot;origin&quot;, but you can have more.</li>
+</ul>
+</li>
+<li>
+<p>Could you explain more with example what command should be written for this? How to write less and n and N? (screenshot removed)</p>
+<ul>
+<li>Is the problem that in your case it does not let you navigate up and down in the annotation and immediately quits after printing it all?</li>
+<li>No I don't know what I should write. /sometext | less -n 1 -N 2? I am not sure if it is correct and what they really means
+- We will explain... in writing ...
+- At the end of session or?</li>
+<li>I'd recommend not worrying about this - this is command line details. But here is what it means:
+<ul>
+<li><code>git log</code> starts another program that can scroll up and down. This program is called <code>less</code>. It's controlled by the keyboard (once it starts). Keyboard shortcuts (inside the program): &quot;n&quot;, &quot;N&quot;, &quot;/&quot;.</li>
+<li>But it's possible that your Git doesn't use <code>less</code>. In which case, we can't help much - I would suggest going on and asking someone locally.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Exercise list for those who need a credit has been updated: https://coderefinery.github.io/2024-03-12-workshop/certificates/ Remember that credit/certificate is available only for those affiliated with a higher education institution.</p>
+</blockquote>
+<ul>
+<li>We can't see the whole url
+<ul>
+<li>Sorry, here it is: https://github.com/networkx/networkx/tree/90544b4</li>
+<li>The bottom line: add <code>/tree/HASH</code> (replace HASH) behind any github repo and you can see how it looked back then</li>
+</ul>
+</li>
+</ul>
+<h3 id="how-to-turn-your-project-to-a-git-repo-and-share-it"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/sharing/#how-to-turn-your-project-to-a-git-repo-and-share-it">How to turn your project to a Git repo and share it</a></h3>
+<h3 id="exercise-turn-your-project-to-a-git-repo-and-share-it"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/sharing/#exercise">Exercise: Turn your project to a Git repo and share it</a></h3>
+<p>In team/on your own: until XX:35
+-&gt; Try to do most of this. Experiment a bit. Follow solution if you need, it's designed to be followed. Add questions and thoughts below (also from earlier sections), these will be discussed on stream after.</p>
+<p>I am:</p>
+<ul>
+<li>
+<p>done: ooooooo</p>
+</li>
+<li>
+<p>not trying: oo</p>
+</li>
+<li>
+<p>had problems: oo</p>
+</li>
+<li>
+<p>everything was good: oooo</p>
+</li>
+<li>
+<p>After publishing it ask on VS Code if I want VS Code to periodically run &quot;git fetch&quot;, what do I do?</p>
+<ul>
+<li>Git fetch checks if there are new changes in GitHub. I usually have it on.
+<ul>
+<li>But how does it work, would it interfere with the local repository?
+<ul>
+<li><code>git fetch</code> fetches commits that you don't have locally and updates remote branches but does not modify any local branches. I think this can be useful so that you always have also remote commits available on your computer if you need them, without having to actively fetch them. In short: it should not interfere with local branches.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Hi! I was trying to push an existing repository by command line, but I got the error &quot;src refspec main does not match any&quot;. Any ideas on what went wrong?</p>
+<ul>
+<li>Maybe you need to tell it what to push: <code>git push -u origin main</code> (<code>main</code> is branch to push, <code>origin</code> is remote name, <code>-u</code> says &quot;remember this for later&quot;)</li>
+<li>and a main branch exists? +1
+<ul>
+<li>Good call! I'll check it out. Thanks!
+<ul>
+<li>Check with <code>git status</code> or <code>git branch</code>
+<ul>
+<li>Solved! Thanks so much</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Why using VS Code instead of GitHub? I did it so much faster on GitHub, I think.</p>
+<ul>
+<li>To have a local copy. This is in case you need it for other reasons, and would depend on what the project is. If it's software, you would run tests and use it locally.</li>
+<li>Day 1 was GitHub (easy but not very realistic), now we go to harder but more realistic. Different people may focus on different parts.</li>
+<li>For archiving the work the GitHub path is good enough. But if I want to continue on it, then you probably either want to clone it or start from local.</li>
+</ul>
+</li>
+<li>
+<p>Is it really necessary to create an empty repository on GitHub? In VS Code I can just “publish to GitHub private (or public) repository with username/myproject.</p>
+<ul>
+<li>With VS Code it is not needed to do (it creates it for you). But on command line you need to do it first.</li>
+</ul>
+</li>
+<li>
+<p>Ok, so I can publish to GitHub without first creating a repository, but that does not seem to work with GitLab?</p>
+<ul>
+<li>With VS Code: yes</li>
+</ul>
+</li>
+<li>
+<p>In making changes to a file in a local repository, after committing is asked &quot;would you like to stage all your change and commit them directly?&quot;. What should be done here?</p>
+<ul>
+<li>Here say yes. Later you can try to use the staging area to more selectively decide what to commit. We will discuss it. It can be useful to create well-defined commits. But at the beginning there is no problem with committing directly.</li>
+</ul>
+</li>
+<li>
+<p>If we're doing this on GitHub, we don't really do step 3, right? Just trying to understand this fully.</p>
+<ul>
+<li>Right. Then it's already there. Now just for fun you could try the reverse and to clone it to your computer into a different folder.</li>
+</ul>
+</li>
+<li>
+<p>Created a readme file on the Git remote repository, how to make it reflect in the local?</p>
+<ul>
+<li>try to &quot;pull&quot; the change to your local clone.</li>
+</ul>
+</li>
+<li>
+<p>When I want to push to origin, I receive an authentication error:
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed
+how can I avoid this?</p>
+<ul>
+<li>This is from command line? Or from where?
+<ul>
+<li>Yes, from command line.
+<ul>
+<li>In this case you probably want to set up SSH keys or the Git credential manager. See the &quot;configuration&quot; in the Git lesson: https://coderefinery.github.io/git-intro/configuration/ the part about &quot;Authenticating to GitHub&quot;
+<ul>
+<li>Thank you
+<ul>
+<li>It can take some time to set this up but if you plan to work on the command line with git, I recommend to set this up. I personally use SSH keys.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How to delete a repository, then, on GitHub and also by using VS Code (if possible)?</p>
+<ul>
+<li>On GitHub: top right is settings, then in there scroll all the way down and you can delete the repo.</li>
+<li>On VS Code: if you remove the directory or the .git inside the directory, the Git repo is gone locally (this doesn't delete the GitHub copy).</li>
+</ul>
+</li>
+<li>
+<p>I got this error: &quot;error: failed to push some refs to github.com:[my user/repo]&quot;&quot;.</p>
+<ul>
+<li>Any more in the error message? Hopefully it wolud tell the reason somewhere else.
+<ul>
+<li>No further info in the line. Maybe the question I have is whether I need to have edited some file here to then push? E.g. most simply how to save a new script into the main branch?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How to disconnect with git? Once I establish a folder connecting with git, the VS Code Git also notifies me 'commit'.</p>
+<ul>
+<li>In VS Code look for remotes. With CTRL+SHIFT+P and then search for &quot;remote&quot; or: three dots, then &quot;Remote&quot;. there you can remove it and then it's disconnected.</li>
+<li>What do you mean by disconnect?
+<ul>
+<li>I mean after I publish my project, each time I modify the files, VS Code asks me to commit. What if I do not want to commit, just modify the files locally. I don't want VS Code to notify me.</li>
+<li>I guess delete .git folder might be helpful.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Is there anyway to change the Git repository from private to public? Because I am unable to view network with the private on GitHub.</p>
+<ul>
+<li>Settings → General → Danger zone (at bottom) → change visibility.</li>
+</ul>
+</li>
+<li>
+<p>We call these projects but on GitHub they are called repositories. On GitHub they also have &quot;Projects&quot;?</p>
+<ul>
+<li>Yes with a GitHub project you can do more, like having a task board, milestones, and many things &quot;around&quot; a Git repository (same on GitLab).</li>
+</ul>
+</li>
+<li>
+<p>What is the file extension for the file LICENSE? Is there a set way for creating a license file?</p>
+<ul>
+<li>In essence it's just free-form. No extension, but you could put it in some format. GitHub does some magic detection.</li>
+<li>If you start creating a file named LICENSE on the GitHub interface, it will give you a picker to choose one. We will talk more about licenses on day 4.</li>
+</ul>
+</li>
+<li>
+<p>In the timeline tab of VS Code, why does my timeline show a lot of &quot;File Saved&quot;?</p>
+<ul>
+<li>Not sure. I wonder if it could be a mode that is automatically committing on every save?</li>
+</ul>
+</li>
+</ul>
+<h3 id="practical-advice-how-much-git-is-necessary"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/level/">Practical advice: how much Git is necessary?</a></h3>
+<ul>
+<li>
+<p>When should we initialize the .gitignore file? If there are files from a format that I want to exclude but that are in the history of git, creating a .gitignore file does not allow us to get rid of these. What should I do then to remove these. Ex: I clone a repo with NN weights. These files are very heavy. So I create a .gitignore file. But these files are still on the history.</p>
+<ul>
+<li>Good question! Changing history is another topic. It has its risk. Try searching &quot;git remove big files from history&quot; or some such...</li>
+<li>In this situation you can start over from scratch with a new repository in which those large files are not added in the first place.</li>
+</ul>
+</li>
+<li>
+<p>Can I have different .gitignore files for two local repositories of the same repo?</p>
+<ul>
+<li>Yes you can. The .gitignore itself can be version controlled within each repository. Aha, ok, with two clones of the same repo it is a bit more complicated.
+<ul>
+<li>For instance, I have a local repo on my laptop and another one on some clusters with a limited memory. So I would like to compute the results on the clusters, transfer these to my laptop and then erase them from the clusters while keeping them on my laptop.
+<ul>
+<li>Unsure whether this could be done working with a single repo. One setup could be to work with two repositories. One containing the contents that need be available all clones, and another repo with the larger files.</li>
+<li>In that workflow, wouldn't a synced .gitignore still work? If it's tracked on one place then it'll end up in all histories. If it's ignored in one place but doesn't exist in other places, it doesn't matter.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>.git/info/exclude</code> (the <code>.git</code> dir of each repo) is a non-tracked ignore file - per local computer.</li>
+</ul>
+</li>
+<li>
+<p>I can understand using Git for code, but what about more complex files, e.g Word documents?</p>
+<ul>
+<li>It works! I use it for similar, for example our group's image archive.</li>
+<li>But you don't get nice things like the differences between files and so on. It's not <em>best</em> but in some cases it's better than other options.
+<ul>
+<li>For Word documents (or common documents) there are better solutions. The main issue with &quot;proprietary&quot; formats, or binary formats is that if you have conflicts, it's difficult to solve them. I'd personally rather use a shared editor (overleaf, googledocs or MS cloud) with a history than Git for version control of documents, where I expect a lot of edits. But if it's &quot;just&quot; to keep them in one place and not for collaborative work on the document, storing them in Git works fine (e.g. you work on a document for a webpage, and put the final doc into a repository, and potentially later replace it by more recent versions).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>How to turn a project into a GitLab repository instead of a GitHub repository?</p>
+<ul>
+<li>You would start the repo on one's own computer like normal &quot;git init&quot;.</li>
+<li>Then you would make a new repo in the GitLab web interface.</li>
+<li>Then set the remote to the GitLab path (which the GitLab empty project will tell you how to do).</li>
+<li>(same for any other web repository services).
+<ul>
+<li>this is not so clear especially with the VS Code path.</li>
+</ul>
+</li>
+<li>Below someone mentions a VS Code extension for GitLab.</li>
+</ul>
+</li>
+<li>
+<p>Is Git the best way to handle projects with a lot of non-code assets, like videogames with binary 3D files? How do you handle the changes to those files?</p>
+<ul>
+<li>If things get really large git-annex or git-lfs can be an idea (integrated into git). Overall, there is no drawback of using Git for these kinds of projects, but as mentioned above, for non textual files, conflict resolution is not (easily) possible and repos can become quite big.</li>
+<li>Git LFS (large file storage) is designed for this kind of case but uses only a central repo. git-annex also does but is much larger and more distribtuted.</li>
+</ul>
+</li>
+<li>
+<p>When would you clone vs fork a repository? If I want to play with someone's code, maybe make some own changes but don't want necessarily to share it back, perhaps cloning is OK?</p>
+<ul>
+<li>Yes. I would fork, if I intend to track my changes or see a potential of submitting a feature via a PR and use a clone mostly if I just want to &quot;use&quot; the code without a lot of modification.</li>
+<li>But I can also track the changes in a clone right? It can be it's own repository?
+<ul>
+<li>Yes, in the clone you can make edits and commits. But you cannot push to the parent repository unless the owner of that repo has given you write access.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Could you explain what .gitignore file does?</p>
+<ul>
+<li>The .gitignore file contains a listing of files that should not be version controlled. The listing can be in form of file name patterns, e.g. <code>*.out</code> if you want to exclude output files with that suffix.
+<ul>
+<li>It's extremely useful to e.g. avoid tracking editor specific files (like the .vscode folder that VS Code tends to create for any project it opens) or temporary files like compiled Python (pyc) files. Also if you e.g. run a database in your project, you likely don't want to have that database on GitHub, but only have the code there.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Any preparations we should do for tomorrow's sessions today already? Creating local files, folders, repos?</p>
+<ul>
+<li>the only preparation step for tomorrow is for learners without a team or who are not in a local exercise group. Since tomorrow we will do collaboration, if you are on your own, open an issue following https://coderefinery.github.io/2024-03-12-workshop/communication/#2024-03-12-exercise-preparation-for-learners-without-own-group</li>
+<li>exercise preview: https://coderefinery.github.io/2024-03-12-workshop/exercises/ (this afternoon we will create solutions/screenshots)</li>
+</ul>
+</li>
+<li>
+<p>Are there things that you often do only on GitHub/GitLab vs. command line and vice versa.</p>
+<ul>
+<li>Reviewing pull requests and issues (obviously, can only be done there), but more importantly the &quot;Suggesting&quot; feature for pull requests to make small changes to the pull requests (could be done locally, but I don't often)</li>
+</ul>
+</li>
+<li>
+<p>I noticed that RStudio as an option for commit signing in the commit dialog. Is there benefit of cryptographically signing commits in the context of (academic) research?</p>
+<ul>
+<li>You can probably figure out cases where it's useful. I don't hear of it being often used in the academic context.
+<ul>
+<li>thanks!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>When I use the command: ssh -T git@github.com, I will get <code>You've successfully authenticated, but GitHub does not provide shell access.</code>. I have set the ssh keys in GitHub to the best I know.</p>
+<ul>
+<li>This is a successful response. It probably showed your username. Git will work.
+<ul>
+<li>
+<p>But then I recieve the same error as before when I want to push the origin.</p>
+</li>
+<li>
+<p>The exact same message?  Hm...</p>
+</li>
+<li>
+<p>Yes, is not it related to the second part that says shell access is not provided?</p>
+</li>
+<li>
+<p>Which error do you get?</p>
+<ul>
+<li>remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed</li>
+</ul>
+</li>
+<li>
+<p>Is you remote using Git protocol? git@github.com:USER/repository.git? (vs https://github.com/USER/repository.git). You can see this with <code>git remote -v</code></p>
+</li>
+<li>
+<p><code>git remote -v</code> gives me https://github.com/USER/repository.git which is what I added as origin via ``git remote add origin https://github.com/USER/repository.git</p>
+</li>
+<li>
+<p>That's it then, change it to git@github.com... : <code>git remote remove origin</code> and <code>git remote add origin git@github.com...</code>. Using https protocol tries to use password authentication which as it says was removed.</p>
+<ul>
+<li>Thanks! It is working now.</li>
+<li>Glad to hear this, you're welcome!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>From the VS Code code pathway, how to publish project to a GitLab repository instead of GitHub, given that from start the only option is GitHub.</p>
+<ul>
+<li>GitLab has an extension called &quot;GitLab Workflow&quot; for VS Code. It allows a lot of interaction wit GitLab, checking if it enables publishing.
+<ul>
+<li>It adds a command for cloning from GitLab and adding a remote. But not publishing directly. You would need to create an empty repository on GitLab and add it as a remote.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>When working locally, Git will keep track of each previous version to be accessible even years after. All this information must be stored I understand. Can this become a problem with the time? Does Git uses some compress format?</p>
+<ul>
+<li>It does compress all the stored data. For the types of things Git is designed for (text files), it works pretty well. For bigger things like .docx, .pdf, images: it's not perfect but is OK.</li>
+</ul>
+</li>
+<li>
+<p>How come that I can publish directly from VS Code to GitHub, without first creating an empty repository on GitHub, compared to GitLab where I have to first create an empty repository? Or am I wrong?</p>
+<ul>
+<li>VS Code is owned by Microsoft and so is GitHub, so they make sure it works well. Above someone mentions GitLab extensions that would make it easier there, too.</li>
+<li>But in general you are correct in your observation.</li>
+</ul>
+</li>
+<li>
+<p>Bring cat back</p>
+<ul>
+<li>sorry, as you probably know CATs do what they want. Hopefully it comes back...</li>
+</ul>
+</li>
+<li>
+<p>Is there a way to do automatic Git commit to avoid losing work? Perhaps a bad way to use git? Because I also use Time Machine which use versions and automatic backup. Perhaps something like a commit with backup in the commit text.</p>
+<ul>
+<li>Could it be an automatic script with random commit message and then squashing the commits when you do a &quot;real one&quot;?</li>
+</ul>
+</li>
+<li>
+<p>Is there a practice to join commits? Sometimes I go fixing really small things like typos and several times a day. Could I join my commits of the day and write a sensible description for that one big commit (like fixed several typos, wrote documentation, etc.)</p>
+<ul>
+<li>This &quot;undoing and recovering&quot; episode: https://coderefinery.github.io/git-intro/recovering/</li>
+<li>I use &quot;rebase&quot; often. Search &quot;git interactive rebase&quot; and &quot;git interactive rebase squash&quot; and &quot;git commit fixup&quot; for ideas. I use this somewhat often.</li>
+</ul>
+</li>
+<li>
+<p>Is not most code developed under certain employment proprietary? How do you build your GitHub portefolio? Mostly from project done on free time?</p>
+<ul>
+<li>Depends on your employer, many (?) universities/funders have some guidelines along the lines of &quot;as open as possible, as closed as necessary&quot;.</li>
+<li>Research code is often closed until one or multiple papers have been published using it, after that it is often up to developer.</li>
+</ul>
+</li>
+</ul>
+<h2 id="feedback">Feedback</h2>
+<p>Today was:</p>
+<ul>
+<li>too fast:</li>
+<li>too slow: oooo</li>
+<li>right speed: ooooooooooooo</li>
+<li>too advanced:oooo</li>
+<li>too basic: o</li>
+<li>right level: oooooooooooo</li>
+<li>needed more exercise time: oo</li>
+<li>needed less exercise time: oo</li>
+<li>I will use what I learned today: ooooooooooooo</li>
+<li>I would recommend today to others: oooooooooooo</li>
+<li>I would not recommend today to others: o</li>
+<li>too slow sometimes, too fast other times: oooo</li>
+</ul>
+<p>Rstudio track was:</p>
+<ul>
+<li>helpful: ooo</li>
+<li>not refined enough to be useful:</li>
+<li>I didn't use: ooooooooooooo</li>
+</ul>
+<p>One good thing about today:</p>
+<ul>
+<li>Found that exercise where we searched for the string to find the commit and so forth was very good.</li>
+<li>The speed was really nice, I never got &quot;lost&quot; and genuinely learned a lot, already used this in my own project to know where</li>
+<li>It was a nice experience</li>
+<li>I feel like I have a better understanding of the relationship between local and remote branches. o</li>
+<li>Tips and examples for commit messages very useful. Otherwise generally very easy to follow, very useful. o</li>
+<li>I'm long time RStudio user but this was the first time I used the integrated Git feature. o</li>
+<li>I understand better what I can do with Git in my work.</li>
+<li>Learned how to work between VS Code and terminal and GitHub and how to use commands flexibly within these.</li>
+<li>Enough time to discuss questions from the document on stream.</li>
+</ul>
+<p>One thing to improve for next time:</p>
+<ul>
+<li>Perhaps balance the exercise times for different difficulty levels.</li>
+<li>For me that I just wanted to use GitHub and partly VS Code, it was a bit slow and I would have liked more information given.
+<ul>
+<li>Thanks for this feedback! Could you specify what &quot;more information&quot; you would have liked?</li>
+</ul>
+</li>
+<li>I would have liked to do a few more exercises to practice command line in different ways (i.e., similar instructions with other examples or try different ways to do obtain same results).</li>
+<li>There could be a simple exercise at the end of day 1 for those who want to make sure their command line Git can do everything required for day 2 exercises.
+<ul>
+<li>Thank you for this feedback! Would there be need for more than this: https://coderefinery.github.io/installation/git-in-terminal/#verification ?</li>
+<li>Or what things did you have trouble with? (this is important for us to know so that we can update the install instructions and verification)
+<ul>
+<li>It seems like I didn't follow that page all the way to the end, plenty of useful steps there. I was confused with basic things like changing directories/folders ('cd'). For example, I cloned the folder successfully but did not realize that I have to go into the folder. Also took me a while to figure out how to exit the 'graph'.</li>
+<li>One more thing to check in the installation page could be whether connection between command line Git and GitHub works. Are you allowed to connect from your local computer to GitHub? See https://coderefinery.github.io/installation/git-in-terminal/#verification.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Any other feedback?</p>
+<ul>
+<li>Thanks for adding RStudio, really helpful. I think I need some more help with the SSH stuff there, though.</li>
+<li>Perhaps focus on terminal first in the course, then GitHub and finally VS Code. It is a bit confusing when we mix them. o</li>
+<li>There is a bit of information overload</li>
+<li>a lot of information</li>
+<li>advanced stuff</li>
+<li>I enjoyed the starting with GitHub, it makes life easier (I have earlier used mainly command line). o</li>
+<li>I am more confident using branches now, didn't have a good understanding of it before. Now I know, thanks so much!</li>
+<li>As a beginner, while I liked the archaeology exercise and its practicality, finding specific commits seemed a bit advanced. I think I was expecting the focus for today be more on cloning repos and pushing changes to them. Maybe an exercise where we push a change from our locally cloned recipe-book repo to GitHub and check changes in the insights panel. (Hmm, seems like we might actually being doing some of this on day 3).</li>
+<li>Thank you to the team and CATS!</li>
+</ul>
+<p>News for day 2:</p>
+<ul>
+<li>We did the things that are now listed on the schedule</li>
+<li>Tomorrow is &quot;git collaborative&quot;.
+<ul>
+<li>It builds on things today - it would be good to review if you haven't attended days 1-2.</li>
+<li>We assume that you can link to and push/pull from GitHub.  You need to make sure the authentication works with whatever program you are using: https://coderefinery.github.io/installation/ssh/ .</li>
+<li>It is possible to do everything in GitHub though.</li>
+</ul>
+</li>
+</ul>
+
+  
+
+      </div>
+
+      <div class="uk-margin-large-top">
+        <hr>
+        <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h4>Funding</h4>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+      NeIC is an organisational unit under <a href="https://www.nordforsk.org/" target="_blank">NordForsk</a>.
+    </p>
+  </div>
+
+  <div>
+    <h4>Privacy</h4>
+    <p>
+      <a href="https://coderefinery.org/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h4>Follow us</h4>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: social">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Contact</h4>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+  <div>
+    <h4>Improve this page</h4>
+    <p>
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;coderefinery&#x2F;2024-03-12-workshop">Source code</a>
+    </p>
+  </div>
+
+</div>
+
+      </div>
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
