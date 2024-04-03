@@ -26,6 +26,7 @@ We collect here the exercise groups that we know:
   - Possibility of [credit points](@/certificates.md) to those in Finland.
 - Materials Physics Center (CFM), Donostia - San Sebastian, Spain
 - TU Delft, Netherlands
+- [Ecole Doctorale Informatique, Télécommunications et Electronique, France](https://www.edite-de-paris.fr/workshop-organise-par-coderefinery/)
 
 
 ## Instructors
