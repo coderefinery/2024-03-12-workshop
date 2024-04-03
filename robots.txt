@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://coderefinery.github.io/2024-03-12-workshop/sitemap.xml
